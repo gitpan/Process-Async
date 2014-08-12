@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 179444933d9293ea2f5946353bf85598bf444473 Changes
+SHA1 e1ab18c64fb1dff7f5ae7e4d2f5a0b548fddcdcb INSTALL
+SHA1 6b50b30fa6f8d063d96e32c9a81f3f82328925f7 LICENSE
+SHA1 5544a1d683594d2a998ccb6580576b0e1b69434f MANIFEST
+SHA1 d05254d3d522f98b8afb89c9dab7b0d652136b7f META.json
+SHA1 31cad4a4c8d1e5a0cf1fc3417d9f9c065c74327f META.yml
+SHA1 d8bb936f4063522186dbd3c004b34ee6da4cdbc3 Makefile.PL
+SHA1 0ade9bd636d9e5f3dcee4ebe0bbe188ea973f5cd README
+SHA1 5b521ed91898987873a99bf34daeb86620381fde cpanfile
+SHA1 c1d7d437d6a93f39da4c35e09b775e2e6785b164 dist.ini
+SHA1 8afb5ec96dae48fc82d6d757d8ae82d4eff7a45b examples/basic.pl
+SHA1 d97a71f59736ca74da56deed58379992b92e9841 lib/Process/Async.pm
+SHA1 4c2e47e66928ddfe9c45959a4cc29dc3842fc8b4 lib/Process/Async/Child.pm
+SHA1 cae0f8db62b1c3a5b76b77650983ce62339bd1c0 lib/Process/Async/Child.pod
+SHA1 fc3cc415f33f2e66d2bb66316bdba81bb3c218b4 lib/Process/Async/Manager.pm
+SHA1 796cafde5555435329b65afb21e982d5e29d8f9c lib/Process/Async/Manager.pod
+SHA1 8a21aafc6b69665fde48a7e550cfbaf8a0c31b8f lib/Process/Async/Worker.pm
+SHA1 d5fc0ca04a6a33101fd43baf99742ae01aec58d6 lib/Process/Async/Worker.pod
+SHA1 985d9ded8d8ed7e344a09e52b1402e878e91da28 t/00-check-deps.t
+SHA1 7522bfe51a52c9915f007fa8ccd6f20b50c1abd5 t/00-compile.t
+SHA1 3934e5434b422d1c37e9f340abbd5906aa00d51d t/000-report-versions-tiny.t
+SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 296928dbbcaffd1514ccc9b77a1e6e03cfe9b068 xt/release/pod-syntax.t
+SHA1 34513f89a70b96f6412fe2ef0ad4d475e8cac66c xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJT6k6RAAoJEFKElMNpjtyDsrcIAMQEv7lrx2TdlxdbMVDu8PpF
++99oQJub8/vCusEhxtF2LqepCk9ZEIQiWC4l5scDs0BQGL4xHZQAcIYiE1mCo2ow
+BXgioC3Cy1cuHhp+Vm8RZMSNYQnH3/GEIMsxFRI3qNs/76l1pBT9Jna+E3U4z0P3
+S1ruHfkiCKGzKQiexvnXC8IrMD9+Nm1Zc+z7ABWoBBz8ev8tqxES4CNXO9ZL4fuP
+dGy6D4em9EHK4EvKnVW2OXR59o2fDrf0w+Ay95L1xMw1dPxgvbPecQfZKDJoawL9
+IIkrLuwdL4UpVPb0oPdQaexNNCob6ffzH/xaweOTSTQ+qrKAXnq1bSqJwcz7ug0=
+=oFGK
+-----END PGP SIGNATURE-----
